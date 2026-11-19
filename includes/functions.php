@@ -1,6 +1,6 @@
 <?php
 /* ============================================================================
-   SL Diagnostics - Inventory Management
+    Inventory Management
    includes/functions.php : shared helpers + all stock business logic
    ============================================================================ */
 
