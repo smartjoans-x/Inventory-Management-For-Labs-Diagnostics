@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Purchase workflow: Order, Receive GRN, Finalize">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="wline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.75"/>
+    </linearGradient>
+    <path id="arrow1" d="M312 132 H358"/>
+    <path id="arrow2" d="M637 132 H683"/>
+  </defs>
+
+  <rect width="1000" height="250" rx="20" fill="url(#wbg)"/>
+  <rect x="0.5" y="0.5" width="999" height="249" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <text x="40" y="42" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#e8f0fb">Order first, receive second</text>
+  <text x="40" y="62" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" fill="#7d8ca6">A purchase order can never be finalized from the order screen — stock is created only at step 3.</text>
+
+  <!-- ── card 1 : Order ── -->
+  <g>
+    <rect x="40" y="80" width="272" height="104" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#fbbf24" stroke-opacity="0.25"/>
+    <rect x="40" y="80" width="272" height="104" rx="15" fill="none" stroke="#fbbf24" stroke-width="1.6" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0;0.95;0.95;0;0" keyTimes="0;0.05;0.28;0.34;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="58" y="96" width="56" height="20" rx="10" fill="#fbbf24" fill-opacity="0.16"/>
+    <text x="86" y="110" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" fill="#fbbf24" letter-spacing="1">DRAFT</text>
+    <text x="58" y="140" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#eef4fd">1 · Order</text>
+    <text x="58" y="158" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#60a5fa">create_po.php</text>
+    <text x="58" y="174" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8fa0ba">item_batches untouched · fully editable</text>
+  </g>
+
+  <!-- arrow 1 -->
+  <use href="#arrow1" stroke="url(#wline)" stroke-width="2" fill="none"/>
+  <path d="M352 126 l8 6 -8 6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle r="4.5" fill="#2dd4bf">
+    <animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.28;0.38;1" calcMode="linear">
+      <mpath href="#arrow1"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.27;0.29;0.37;0.39;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── card 2 : Receive ── -->
+  <g>
+    <rect x="365" y="80" width="272" height="104" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#60a5fa" stroke-opacity="0.25"/>
+    <rect x="365" y="80" width="272" height="104" rx="15" fill="none" stroke="#60a5fa" stroke-width="1.6" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0;0;0.95;0.95;0;0" keyTimes="0;0.38;0.42;0.62;0.68;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="383" y="96" width="112" height="20" rx="10" fill="#60a5fa" fill-opacity="0.16"/>
+    <text x="439" y="110" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" fill="#60a5fa" letter-spacing="1">RECEIVE · GRN</text>
+    <text x="383" y="140" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#eef4fd">2 · What arrived</text>
+    <text x="383" y="158" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#60a5fa">receive_po.php</text>
+    <text x="383" y="174" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8fa0ba">qty · rate · lot no. · expiry · split lots</text>
+  </g>
+
+  <!-- arrow 2 -->
+  <use href="#arrow2" stroke="url(#wline)" stroke-width="2" fill="none"/>
+  <path d="M677 126 l8 6 -8 6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle r="4.5" fill="#2dd4bf">
+    <animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.62;0.72;1" calcMode="linear">
+      <mpath href="#arrow2"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.61;0.63;0.71;0.73;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── card 3 : Finalize ── -->
+  <g>
+    <rect x="690" y="80" width="272" height="104" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#2dd4bf" stroke-opacity="0.25"/>
+    <rect x="690" y="80" width="272" height="104" rx="15" fill="none" stroke="#2dd4bf" stroke-width="1.6" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0;0;0.95;0.95;0" keyTimes="0;0.72;0.76;0.96;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="708" y="96" width="56" height="20" rx="10" fill="#2dd4bf" fill-opacity="0.16"/>
+    <text x="736" y="110" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" fill="#2dd4bf" letter-spacing="1">FINAL</text>
+    <text x="708" y="140" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#eef4fd">3 · Finalize</text>
+    <text x="708" y="158" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#2dd4bf">finalize_po()</text>
+    <text x="708" y="174" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#8fa0ba">stock posted · PO becomes read-only</text>
+  </g>
+
+  <!-- stock created flash -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.76;0.8;0.96;1" dur="7s" repeatCount="indefinite"/>
+    <rect x="690" y="196" width="272" height="30" rx="10" fill="#2dd4bf" fill-opacity="0.12" stroke="#2dd4bf" stroke-opacity="0.4"/>
+    <text x="826" y="215" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#5eead4">+ rows into item_batches</text>
+  </g>
+
+  <text x="40" y="215" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#64748b">Part delivery? Save the receipt without finalizing — the PO stays Draft.</text>
+  <text x="40" y="232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#64748b">Prints as “Purchase Order” while Draft, “Goods Receive Note” once received.</text>
+</svg>

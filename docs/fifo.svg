@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="FIFO issue: 7 units taken from the earliest expiring lots">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="fbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="20" fill="url(#fbg)"/>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <text x="40" y="42" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#e8f0fb">Stock out — FIFO, earliest expiry first</text>
+  <text x="40" y="62" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" fill="#7d8ca6">Issuing 7 units spans as many lots as needed; every slice keeps its own rate.</text>
+
+  <!-- ══ LOT 1 : AS123 — 5 → 0 ══ -->
+  <g>
+    <rect x="40" y="80" width="290" height="110" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="40" y="80" width="290" height="110" rx="15" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0;0;0.95;0.95;0;0" keyTimes="0;0.14;0.18;0.28;0.32;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="108" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#2dd4bf">AS123</text>
+    <text x="60" y="126" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#7d8ca6">exp 06/2027 · @ ₹110.00</text>
+    <rect x="250" y="94" width="62" height="20" rx="10" fill="#2dd4bf" fill-opacity="0.16"/>
+    <text x="281" y="108" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="700" fill="#2dd4bf" letter-spacing="1">FIFO 1st</text>
+
+    <text x="60" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#eef4fd">5
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.16;0.22;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#64748b" opacity="0">0
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.22;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="92" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">nos available</text>
+
+    <rect x="60" y="176" width="250" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="60" y="176" width="250" height="6" rx="3" fill="url(#fbar)">
+      <animate attributeName="width" values="250;250;0;0;250" keyTimes="0;0.16;0.24;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ══ LOT 2 : AR123 — 5 → 3 ══ -->
+  <g>
+    <rect x="355" y="80" width="290" height="110" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="355" y="80" width="290" height="110" rx="15" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0;0;0.95;0.95;0;0" keyTimes="0;0.3;0.34;0.44;0.48;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="375" y="108" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#60a5fa">AR123</text>
+    <text x="375" y="126" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#7d8ca6">exp 09/2027 · @ ₹105.00</text>
+
+    <text x="375" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#eef4fd">5
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.32;0.38;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="375" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#5eead4" opacity="0">3
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.32;0.38;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="407" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">nos available</text>
+
+    <rect x="375" y="176" width="250" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="375" y="176" width="250" height="6" rx="3" fill="url(#fbar)">
+      <animate attributeName="width" values="250;250;150;150;250" keyTimes="0;0.32;0.4;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ══ LOT 3 : GENERAL — untouched ══ -->
+  <g>
+    <rect x="670" y="80" width="290" height="110" rx="15" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="690" y="108" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#94a3b8">GENERAL</text>
+    <text x="690" y="126" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#7d8ca6">no expiry · @ ₹98.00 · taken last</text>
+    <text x="690" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#eef4fd">40</text>
+    <text x="732" y="166" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">nos available</text>
+    <rect x="690" y="176" width="250" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="690" y="176" width="250" height="6" rx="3" fill="#475569"/>
+  </g>
+
+  <!-- ══ stock_out log ══ -->
+  <g font-family="Consolas,Menlo,monospace" font-size="12.5">
+    <text x="40" y="222" fill="#8fa0ba" opacity="0">stock_out → 5 × AS123 @ ₹110.00 = ₹550.00
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.26;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="40" y="244" fill="#8fa0ba" opacity="0">stock_out → 2 × AR123 @ ₹105.00 = ₹210.00
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.42;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="520" y="244" fill="#5eead4" font-weight="700" opacity="0">→ ISS/2026-27/0001 · voucher value ₹760.00
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.55;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="520" y="222" fill="#64748b" opacity="0">all-or-nothing: one short line rolls the whole slip back
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.65;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

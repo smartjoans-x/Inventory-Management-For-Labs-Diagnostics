@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="SL Diagnostics — Laboratory Inventory and Stock Management System">
+  <defs>
+    <linearGradient id="gTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf">
+        <animate attributeName="stop-color" values="#2dd4bf;#60a5fa;#a78bfa;#2dd4bf" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.55" stop-color="#60a5fa">
+        <animate attributeName="stop-color" values="#60a5fa;#a78bfa;#2dd4bf;#60a5fa" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#2dd4bf;#60a5fa;#a78bfa" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="typeClip">
+      <rect x="58" y="214" width="0" height="26">
+        <animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.06;0.46;0.94;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="300" rx="22" fill="url(#gBg)"/>
+  <rect width="1000" height="300" rx="22" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <!-- moving glows -->
+  <circle cx="860" cy="60" r="190" fill="url(#glowA)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -40 36; 0 0" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="960" cy="260" r="160" fill="url(#glowB)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 30 -34; 0 0" dur="17s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- status pill -->
+  <g>
+    <rect x="726" y="30" width="238" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <circle cx="745" cy="45" r="4" fill="#2dd4bf">
+      <animate attributeName="r" values="4;6.5;4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="758" y="50" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" fill="#cbd5e1" letter-spacing="0.5">Build v6 · Order → Receive (GRN)</text>
+  </g>
+
+  <!-- logo mark -->
+  <g>
+    <rect x="58" y="34" width="46" height="46" rx="13" fill="url(#gTitle)"/>
+    <text x="81" y="65" text-anchor="middle" font-family="Times New Roman,Times,serif" font-weight="bold" font-size="20" fill="#06131d">SL</text>
+  </g>
+  <text x="118" y="54" font-family="Times New Roman,Times,serif" font-weight="bold" font-size="22" fill="#e8f0fb">SL Diagnostics</text>
+  <text x="118" y="73" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#7d8ca6" letter-spacing="1.8">LABORATORY SYSTEMS</text>
+
+  <!-- headline -->
+  <text x="58" y="138" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-weight="700" font-size="36" fill="#eef4fd">Inventory <tspan fill="url(#gTitle)">&amp; Stock</tspan> Management</text>
+  <text x="58" y="172" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15.5" fill="#8fa0ba">Core PHP (PDO) · MySQL · Bootstrap 5 · vanilla JS — no framework, no composer, no build step.</text>
+
+  <!-- typing terminal line -->
+  <rect x="44" y="204" width="430" height="46" rx="11" fill="#060b14" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="58" y="233" font-family="Consolas,Menlo,monospace" font-size="13.5" fill="#2dd4bf">$</text>
+  <g clip-path="url(#typeClip)">
+    <text x="74" y="233" font-family="Consolas,Menlo,monospace" font-size="13.5" fill="#dbe6f5">mysql -u root -p &lt; database.sql</text>
+  </g>
+  <rect y="221" width="8" height="15" fill="#2dd4bf">
+    <animate attributeName="x" values="74;74;434;434;74" keyTimes="0;0.06;0.46;0.94;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- chips -->
+  <g font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#9fb0c8">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <rect x="520" y="206" width="84" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="562" y="223" text-anchor="middle">PHP 7.4+</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+      <rect x="612" y="206" width="100" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="662" y="223" text-anchor="middle">MySQL · PDO</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+      <rect x="720" y="206" width="98" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="769" y="223" text-anchor="middle">Bootstrap 5</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+      <rect x="826" y="206" width="132" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="892" y="223" text-anchor="middle">XAMPP · cPanel</text>
+    </g>
+  </g>
+
+  <!-- footer line -->
+  <text x="58" y="276" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b">
+    Built by SmartJOANS · services.smartjoans.space · @smart_joans
+  </text>
+  <rect x="58" y="284" width="0" height="2" rx="1" fill="url(#gTitle)">
+    <animate attributeName="width" values="0;330" dur="1.4s" begin="0.8s" fill="freeze"/>
+  </rect>
+</svg>
