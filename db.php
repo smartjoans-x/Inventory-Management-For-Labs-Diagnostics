@@ -8,8 +8,8 @@
    ============================================================================ */
 
 /* ------------------------------ APPLICATION ------------------------------- */
-define('APP_NAME',    'SL Diagnostics - Inventory Management');
-define('APP_BRAND',   'SL Diagnostics');
+define('APP_NAME',    'Diagnostics - Inventory Management');
+define('APP_BRAND',   'Diagnostics');
 define('APP_TAGLINE', 'Inventory Management');
 define('APP_ADDRESS', 'Hyderabad, Telangana');  // printed on the PO header
 define('APP_GST',     '');                      // own GSTIN, printed if filled
