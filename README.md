@@ -1,32 +1,36 @@
 <div align="center">
 
-  <!-- Animated Typing Banner -->
-  <a href="https://www.smartjoans.space">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=3500&pause=1000&color=0D6EFD¢er=true&vCenter=true&width=900&lines=SL+Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step" alt="SL Diagnostics Typing Animation" />
+<!-- ══════════ ANIMATED TYPING BANNER ══════════ -->
+<a href="https://www.smartjoans.space">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=3500&amp;pause=900&amp;color=0D6EFD&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=60&amp;lines=SL+Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;Lot-wise+Valuation+%E2%80%A2+FIFO+Issue+Vouchers;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step" alt="SL Diagnostics — Laboratory Inventory & Stock Management System" />
+</a>
+
+<p>
+  <strong>Core PHP (PDO) + MySQL + Bootstrap 5 + vanilla JS.</strong><br/>
+  No framework, no composer, no build step. Runs on XAMPP locally and on cPanel / LiteSpeed shared hosting as-is.
+</p>
+
+<!-- ══════════ TECH BADGES ══════════ -->
+<p>
+  <img src="https://img.shields.io/badge/Build-v6%20%C2%B7%20Order%20%E2%86%92%20Receive%20(GRN)-0D6EFD?style=for-the-badge" alt="Build v6" />
+  <img src="https://img.shields.io/badge/PHP-7.4%2B%20(tested%208.3)-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-PDO%20%C2%B7%2011%20tables%20%2B%20v__item__stock-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Hosting-XAMPP%20%7C%20cPanel%20%7C%20LiteSpeed-FF6C37?style=for-the-badge&amp;logo=cpanel&amp;logoColor=white" alt="Hosting" />
+</p>
+
+<!-- ══════════ CREATOR / SUPPORT BADGES ══════════ -->
+<p>
+  <a href="https://www.smartjoans.space" target="_blank">
+    <img src="https://img.shields.io/badge/Built%20by-SmartJOANS-00C853?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Built by SmartJOANS" />
   </a>
-
-  <p align="center">
-    <strong>Core PHP (PDO) + MySQL + Bootstrap 5 + vanilla JS.</strong><br/>
-    No framework, no composer, no build step. Runs on XAMPP locally and on cPanel / LiteSpeed shared hosting as-is.
-  </p>
-
-  <!-- Tech Stack Badges -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Stack-PHP%207.4%2B%20(Tested%208.3)%20%7C%20MySQL%20%7C%20PDO-0D6EFD?style=for-the-badge&logo=php&logoColor=white" alt="Stack" />
-    <img src="https://img.shields.io/badge/Database-11%20Tables%20%2B%20v__item__stock%20View-198754?style=for-the-badge&logo=mysql&logoColor=white" alt="Database" />
-    <img src="https://img.shields.io/badge/Hosting-XAMPP%20%7C%20cPanel%20%7C%20LiteSpeed-FF6C37?style=for-the-badge&logo=cpanel&logoColor=white" alt="Hosting" />
-    <img src="https://img.shields.io/badge/Requires-pdo__mysql%20extension%20only-6F42C1?style=for-the-badge" alt="Requires" />
-  </p>
-
-  <!-- Creator Badges -->
-  <p align="center">
-    <a href="https://www.smartjoans.space" target="_blank">
-      <img src="https://img.shields.io/badge/Built%20by-SmartJOANS-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SmartJOANS" />
-    </a>
-    <a href="https://instagram.com/smart_joans" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-@smart__joans-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-  </p>
+  <a href="https://services.smartjoans.space" target="_blank">
+    <img src="https://img.shields.io/badge/Help%20%26%20Support-services.smartjoans.space-0D6EFD?style=for-the-badge&amp;logo=headspace&amp;logoColor=white" alt="Help & Support" />
+  </a>
+  <a href="https://instagram.com/smart_joans" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@smart__joans-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
+  </a>
+</p>
 
 </div>
 
@@ -34,25 +38,41 @@
 
 ---
 
-## 📋 Quick Overview & Contents
+## ⚡ Quick start
 
-| Spec | Details |
-| :--- | :--- |
-| **Stack** | PHP 7.4+ (tested on PHP 8.3) · MySQL · PDO · Bootstrap 5.3 · vanilla JS |
-| **Database** | 11 tables + the `v_item_stock` view |
-| **Hosting** | XAMPP (Windows) · cPanel / LiteSpeed shared hosting |
-| **Requires** | `pdo_mysql` extension. Nothing else. |
+```bash
+# 1 · copy the folder into htdocs (XAMPP) or public_html (cPanel)
+# 2 · create the database
+mysql -u root -p < database.sql
 
-### 📑 Contents
-1. [Folder structure](#1-folder-structure)
-2. [Installation](#2-installation)
-3. [Three documents, three number series](#3-three-documents-three-number-series)
-4. [Roles & security](#4-roles--security)
-5. [How the stock logic works](#5-how-the-stock-logic-works)
-6. [The Budget page](#6-the-budget-page)
-7. [Your logo](#7-your-logo)
-8. [Notes](#8-notes)
-9. [Credits](#9-credits)
+# 3 · edit the four constants at the top of db.php
+# 4 · open login.php  →  admin / admin123  →  change the password immediately
+```
+
+```
+Login → Suppliers → Item Master → Create PO (Draft)
+      → goods arrive: Receive (GRN) → Finalize → Stock Out
+```
+
+---
+
+## 🧭 What's inside
+
+| | | |
+| :--- | :--- | :--- |
+| 📦 **Item &amp; supplier masters**<br/>Department, analyser, default supplier and item code per item. Lot tracking is a per-item switch. | 🔁 **Two-stage purchase**<br/>Ordering raises a Draft only. Stock is created after the delivery is checked in. | 💰 **Exact valuation**<br/>No average costing — each lot keeps the rate it was bought at. |
+| 🚚 **Direct GRN**<br/>Goods received with no purchase order, posted to stock in one screen. | 📤 **Issue vouchers**<br/>One slip, many items, FIFO or a lot you pick. All-or-nothing saving. | 📊 **Monthly budget**<br/>Opening → purchase → issues → closing → requirement, with draft POs in one click. |
+| 🔐 **Locked down**<br/>bcrypt, CSRF, prepared statements, server-side guards, lockout. | 🖨️ **Print &amp; export**<br/>A4 PO with your logo, issue slips, CSV from stock report and budget. | 🕘 **Full audit trail**<br/>Who created, finalized and issued — names survive login deletion. |
+
+---
+
+## 📑 Contents
+
+| | | | |
+| :--- | :--- | :--- | :--- |
+| [1 · Folder structure](#1-folder-structure) | [2 · Installation](#2-installation) | [3 · Document numbers](#3-three-documents-three-number-series) | [4 · Roles &amp; security](#4-roles--security) |
+| [5 · Stock logic](#5-how-the-stock-logic-works) | [6 · Budget page](#6-the-budget-page) | [7 · Your logo](#7-your-logo) | [8 · Notes](#8-notes) |
+| [9 · Troubleshooting](#9-troubleshooting) | [10 · Help &amp; support](#10-help--support) | | |
 
 ---
 
@@ -73,7 +93,7 @@ sl-inventory/
 ├── suppliers.php             Supplier master (CRUD)
 ├── items.php                 Item master (CRUD): lot switch, dept, analyser, supplier
 ├── departments.php           Departments + the equipment / analysers inside them
-├── budget.php                Monthly budget — the Excel sheet, inside the system
+├── budget.php                Monthly budget — the sheet, inside the system
 ├── create_po.php             Raise / edit a Draft PO (AJAX rate auto-fill)
 ├── receive_po.php            Receive (GRN) — qty, rate, lot numbers, then finalize
 ├── direct_grn.php            Direct GRN — goods received with no purchase order
@@ -91,9 +111,10 @@ sl-inventory/
 ├── ajax/
 │   ├── get_last_rate.php     ?item_id=&supplier_id= → last purchase rate + item info
 │   └── get_batches.php       ?item_id= → available lots in FIFO order
-└── assets/
-    ├── css/style.css         Theme, login page, responsive sidebar, print stylesheet
-    └── js/app.js             Shared JS (number formatting, fetch wrapper, confirms)
+├── assets/
+│   ├── css/style.css         Theme, login page, responsive sidebar, print stylesheet
+│   └── js/app.js             Shared JS (number formatting, fetch wrapper, confirms)
+└── docs/                     Images used by this README (optional)
 ```
 
 ---
@@ -130,12 +151,13 @@ define('DB_PASS', '');          // cPanel: your DB password
 ### Step 4 — Log in
 Open `login.php`:
 
-| Field | Default Value |
+| Field | Default value |
 | :--- | :--- |
 | **Username** | `admin` |
 | **Password** | `admin123` |
 
 > ⚠️ **Change this immediately** — log in, open **My Account**, set a new password.
+> Passwords are stored as bcrypt hashes, never in plain text.
 
 ### Step 5 — First-run order
 ```text
@@ -145,9 +167,20 @@ Login → Suppliers → Item Master → Create PO (saved as Draft)
 The dashboard shows a **Getting Started** checklist until the masters have data, and lists every PO still waiting to be received.
 
 <details>
-<summary><strong>🛠️ Already running an older build? (Click to expand upgrade instructions)</strong></summary>
+<summary><strong>🛠️ Already running an older build? (click to expand upgrade instructions)</strong></summary>
 
-Run `upgrade_v3.sql`, `upgrade_v4.sql`, `upgrade_v5.sql` and `upgrade_v6.sql` **in that order** instead of re-importing. Together they add the receipt tables, the department / equipment layer, the budget table, the issue voucher columns and the direct GRN flag — while keeping your data. *A fresh install needs none of them.*
+<br/>
+
+Run `upgrade_v3.sql`, `upgrade_v4.sql`, `upgrade_v5.sql` and `upgrade_v6.sql` **in that order** instead of re-importing. Together they add the receipt tables, the department / equipment layer, the budget table, the issue voucher columns and the direct GRN flag — while keeping your data.
+
+```bash
+mysql -u root -p sl_inventory < upgrade_v3.sql
+mysql -u root -p sl_inventory < upgrade_v4.sql
+mysql -u root -p sl_inventory < upgrade_v5.sql
+mysql -u root -p sl_inventory < upgrade_v6.sql
+```
+
+*A fresh install needs none of them.*
 </details>
 
 ---
@@ -181,19 +214,28 @@ A User can use every page except `users.php`; only an Admin can create logins. T
 
 Admin can create, edit, deactivate and delete logins, reset any password, and switch a login between Admin and User.
 
-### Guards that cannot be overridden from the UI
+### 🛡️ Guards that cannot be overridden from the UI
 - You cannot delete or deactivate your own login.
 - The **last active Admin** cannot be deleted, deactivated or demoted — so the system can never be locked out.
 
-### Security
-Passwords are stored as bcrypt hashes (`password_hash`), never in plain text. Plus:
-- CSRF token on every form
-- Prepared statements everywhere
-- `h()` on all output
-- `HttpOnly` + `SameSite=Lax` session cookie (`Secure` automatically over HTTPS)
-- Session ID regenerated on login
-- Idle timeout + a 5-attempt lockout
-- Whitelist on the post-login redirect
+<details>
+<summary><strong>🔐 Security measures in full (click to expand)</strong></summary>
+
+<br/>
+
+| Area | Measure |
+| :--- | :--- |
+| Passwords | bcrypt `password_hash()` — never plain text |
+| Forms | CSRF token on every form |
+| Queries | Prepared statements everywhere |
+| Output | `h()` on all output |
+| Cookie | `HttpOnly` + `SameSite=Lax` (`Secure` automatically over HTTPS) |
+| Session | ID regenerated on login · idle timeout (`SESSION_IDLE_MINUTES`) |
+| Brute force | 5-attempt lockout for 5 minutes |
+| Redirects | Whitelist on the post-login redirect |
+| Ajax | `401` to a dead session instead of data |
+
+</details>
 
 > **Audit trail** — every purchase order stores who created it and who finalized it; every stock-out line stores who issued it. These names show on the PO register, the PO view (also under *Prepared By* when printed) and the issue register, and survive the deletion of that login.
 
@@ -201,8 +243,22 @@ Passwords are stored as bcrypt hashes (`password_hash`), never in plain text. Pl
 
 ## 5. How the stock logic works
 
+### PO workflow — order first, receive second
+
+<div align="center">
+  <img src="docs/workflow.svg" alt="Order → Receive (GRN) → Finalize" width="100%" />
+</div>
+
+A purchase order can **never** be finalized straight from the order screen. It is always saved as a Draft, and stock is created only after the delivery is physically checked in.
+
+| Stage | Page | Effect |
+| :--- | :--- | :--- |
+| **1. Order** | `create_po.php` | Item, quantity, expected rate. Always saved as **Draft**. `item_batches` untouched, nothing in the valuation. Editable and deletable. No lot numbers asked for. |
+| **2. Receive (GRN)** | `receive_po.php` | What actually arrived: correct the quantity, correct the rate if the supplier hiked it, enter lot numbers and expiry dates, split one ordered line across several lots. Can be **saved** without finalizing (part delivery) — the PO stays Draft. |
+| **3. Finalize** | `receive_po.php` | `finalize_po()` posts the **confirmed receipt rows** into `item_batches`. The PO becomes read-only and can only be printed, now headed *Goods Receive Note*. |
+
 ### Multi-lot items
-`items.has_lot = 1` means every purchase creates/updates a row in `item_batches` carrying its own `lot_number`, `expiry_date`, `supplier_id` and `unit_price`.  
+`items.has_lot = 1` means every purchase creates/updates a row in `item_batches` carrying its own `lot_number`, `expiry_date`, `supplier_id` and `unit_price`.
 `has_lot = 0` items (gloves, tubes, stationery) are stored under the reserved lot `GENERAL` with a `NULL` expiry; the PO form hides those two fields automatically.
 
 ### Valuation — no average costing
@@ -212,20 +268,6 @@ Current Total Stock Value = SUM(item_batches.quantity_available * item_batches.u
 ```
 is exact even when the same item was bought from three suppliers at three rates.
 
-### PO workflow — order first, receive second
-A purchase order can **never** be finalized straight from the order screen. It is always saved as a Draft, and stock is created only after the delivery is physically checked in.
-
-| Stage | Page | Effect |
-| :--- | :--- | :--- |
-| **1. Order** | `create_po.php` | Item, quantity, expected rate. Always saved as **Draft**. `item_batches` untouched, nothing in the valuation. Editable and deletable. No lot numbers asked for. |
-| **2. Receive (GRN)** | `receive_po.php` | What actually arrived: correct the quantity, correct the rate if the supplier hiked it, enter lot numbers and expiry dates, split one ordered line across several lots. Can be **saved** without finalizing (part delivery) — the PO stays Draft. |
-| **3. Finalize** | `receive_po.php` | `finalize_po()` posts the **confirmed receipt rows** into `item_batches`. The PO becomes read-only and can only be printed, now headed *Goods Receive Note*. |
-
-### Goods that arrive without an order
-`direct_grn.php` — an urgent supply, a free replacement, a sample, something bought over the counter. One screen: GRN number (its own `GRN/…` series), supplier, date, invoice number, then the items with their lot, expiry, quantity and rate. Saving posts the stock immediately — no draft, no separate receive step.
-
-Behind the scenes a direct GRN is stored exactly like a received purchase order (`purchase_orders.is_direct = 1`) with the ordered lines mirroring what was received, so it shows no variance, and the stock report, the valuation, the last-rate lookup and the monthly budget all count it the same as any other receipt. The register tags it **Direct GRN** and can filter on it, and the printed sheet says the goods came in without a purchase order. Put the same item on two rows with different lot numbers to receive it in two lots.
-
 ### Ordered vs received — stored separately, never overwritten
 
 | Table | Holds |
@@ -233,7 +275,12 @@ Behind the scenes a direct GRN is stored exactly like a received purchase order 
 | `po_items` + `purchase_orders.grand_total` | what we asked |
 | `po_receipts` + `purchase_orders.received_total` | what they gave |
 
-So a PO ordered at ₹1,000 and delivered 8 of 10 at a hiked rate of ₹110 keeps the ₹1,000 order on record and posts ₹880 of stock. The difference is shown on the PO register, on the PO view and on the printed sheet. Stock is always valued at the rate actually received, never the rate ordered.
+So a PO ordered at ₹1,000 and delivered 8 of 10 at a hiked rate of ₹110 keeps the ₹1,000 order on record and posts ₹880 of stock. The difference is shown on the PO register, on the PO view and on the printed sheet. **Stock is always valued at the rate actually received, never the rate ordered.**
+
+### Goods that arrive without an order
+`direct_grn.php` — an urgent supply, a free replacement, a sample, something bought over the counter. One screen: GRN number (its own `GRN/…` series), supplier, date, invoice number, then the items with their lot, expiry, quantity and rate. Saving posts the stock immediately — no draft, no separate receive step.
+
+Behind the scenes a direct GRN is stored exactly like a received purchase order (`purchase_orders.is_direct = 1`) with the ordered lines mirroring what was received, so it shows no variance, and the stock report, the valuation, the last-rate lookup and the monthly budget all count it the same as any other receipt. The register tags it **Direct GRN** and can filter on it, and the printed sheet says the goods came in without a purchase order. Put the same item on two rows with different lot numbers to receive it in two lots.
 
 ### Splitting a line across lots
 On the Receive screen each ordered line has an **Add another lot for this item** button. Ten kits delivered as 5 of lot `AS123` and 5 of lot `AR123` become two receipt rows and two separate stock lots, each with its own expiry and rate. The screen shows the received quantity and value against the ordered figures line by line, so a short delivery or a price change is visible before you commit.
@@ -245,6 +292,11 @@ On the Receive screen each ordered line has an **Add another lot for this item**
 Picking an item in the PO form calls `ajax/get_last_rate.php`, which looks for the last **received** rate for that item *and* supplier, then the last received rate from any supplier, then the opening-stock rate. The field remains fully editable; once you type in it, changing the supplier will not overwrite your value.
 
 ### Stock out — the issue voucher
+
+<div align="center">
+  <img src="docs/fifo.svg" alt="FIFO issue across lots" width="100%" />
+</div>
+
 One voucher is one slip: a date, a department, a voucher number and the person who collected the goods, then as many items as needed underneath. The voucher number is auto-filled as `ISS/2026-27/0001` but stays editable so it can match the numbers in your register book. *Received by* is typed in by hand.
 
 Each line is taken **FIFO** (earliest expiry first, lots without an expiry last, spanning as many lots as needed) or from **one lot you pick** from that item's live lot list. Every slice writes a `stock_out` row with the lot's own rate, so the consumption value is historically correct, and all the lines of a voucher share one `voucher_no`.
@@ -265,11 +317,13 @@ Opening  ->  Purchase  ->  Issues  ->  Closing  ->  Required for next month
 
 grouped **Dept / Equipment** or **Supplier wise**, with sub-totals per group and a grand total. The system works the figures out from its own data — purchases from the PO receipts, issues from the Stock Out register, and `closing = opening + purchase − issues`.
 
-- **Required qty** is editable per item. *Fill suggested* writes `issues × cover − closing` into every blank row, where *cover* (default 2 months) is yours to set. The rate is editable too.
-- **Save Requirement** stores it against the month.
-- **Close month** freezes the figures so that month's closing becomes the next month's opening. That is what keeps the chain going, the same way one sheet tab feeds the next.
-- **Create Draft POs (supplier wise)** turns the saved requirement into one Draft purchase order per supplier, using each item's default supplier — a supplier-wise budget raised as actual POs in one click. Items with no supplier set are skipped and listed. Nothing enters stock until each PO is received and finalized.
-- **Export** gives the same table as CSV, so the monthly file can still be mailed as before.
+| Action | What it does |
+| :--- | :--- |
+| **Required qty** | Editable per item. *Fill suggested* writes `issues × cover − closing` into every blank row, where *cover* (default 2 months) is yours to set. The rate is editable too. |
+| **Save Requirement** | Stores it against the month. |
+| **Close month** | Freezes the figures so that month's closing becomes the next month's opening — what keeps the chain going, the same way one sheet tab feeds the next. |
+| **Create Draft POs (supplier wise)** | Turns the saved requirement into one Draft purchase order per supplier, using each item's default supplier. Items with no supplier set are skipped and listed. Nothing enters stock until each PO is received and finalized. |
+| **Export** | Gives the same table as CSV, so the monthly file can still be mailed as before. |
 
 Departments and analysers are maintained in `departments.php`, and every Stock Out entry picks a department from that list — which is what makes the department-wise consumption in the budget accurate.
 
@@ -283,7 +337,13 @@ Put `logo.png` in the application root, next to `db.php`. It is used automatical
 - the sidebar brand area,
 - the browser tab icon.
 
-Nothing breaks if the file is missing — every spot falls back to the text wordmark **SL Diagnostics** in Times New Roman Bold. A wide logo that already contains the full name works best: it is capped at `64px` tall on the PO, `66px` on login and `46px` in the sidebar, and the width scales automatically. Replacing the file is enough — the `?v=` on the URL is the file's own modified time, so the new logo appears immediately instead of a cached one. To use a different file name, change `APP_LOGO` in `db.php`.
+| Spot | Max height |
+| :--- | :---: |
+| Printed purchase order | `64px` |
+| Login page | `66px` |
+| Sidebar | `46px` |
+
+Nothing breaks if the file is missing — every spot falls back to the text wordmark **SL Diagnostics** in Times New Roman Bold. A wide logo that already contains the full name works best; the width scales automatically. Replacing the file is enough — the `?v=` on the URL is the file's own modified time, so the new logo appears immediately instead of a cached one. To use a different file name, change `APP_LOGO` in `db.php`.
 
 ---
 
@@ -298,33 +358,81 @@ Nothing breaks if the file is missing — every spot falls back to the text word
   ```
 - Editing a Draft PO after a receipt has been saved against it clears that saved receipt, since the ordered lines it referred to are replaced.
 - Deletions are protected by referential checks: a supplier with POs, an item used in a PO or still holding stock, and any Final PO cannot be deleted — deactivate instead.
-- **Columns beyond the original spec** — `is_active` on `suppliers` / `items` / `users`; `created_by`, `finalized_by`, `finalized_at`, `received_total`, `receive_date`, `invoice_no`, `receive_notes` on `purchase_orders`; `po_id` on `item_batches` (PO → lot traceability); `issued_by` on `stock_out`; plus the `users`, `po_receipts` and `stock_out` tables and the `v_item_stock` view. `po_items.lot_number` / `expiry_date` remain in the schema but are no longer filled by the order screen — lot details live in `po_receipts`.
+
+<details>
+<summary><strong>🧱 Columns beyond the original spec (click to expand)</strong></summary>
+
+<br/>
+
+| Table | Added |
+| :--- | :--- |
+| `suppliers` / `items` / `users` | `is_active` |
+| `purchase_orders` | `created_by`, `finalized_by`, `finalized_at`, `received_total`, `receive_date`, `invoice_no`, `receive_notes`, `is_direct` |
+| `item_batches` | `po_id` (PO → lot traceability) |
+| `stock_out` | `issued_by` |
+| New tables | `users`, `po_receipts`, `stock_out` |
+| New view | `v_item_stock` |
+
+`po_items.lot_number` / `expiry_date` remain in the schema but are no longer filled by the order screen — lot details live in `po_receipts`.
+
+</details>
 
 ---
 
-## 9. Credits
+## 9. Troubleshooting
 
-Designed & developed by **SmartJOANS** — full-stack web development: PHP / MySQL systems, ASP.NET, Node.js services and digital tools.
+<details open>
+<summary><strong>Common issues and what they mean</strong></summary>
+
+<br/>
+
+| Symptom | Cause / fix |
+| :--- | :--- |
+| Blank white page after upload | `pdo_mysql` not enabled, or a PHP error is hidden. Enable the extension and check the server error log. |
+| `SQLSTATE[HY000] [1045] Access denied` | `DB_USER` / `DB_PASS` in `db.php` do not match the cPanel database user. |
+| `Unknown database 'sl_inventory'` | `database.sql` was not imported, or cPanel prefixed the name — put the real name in `DB_NAME`. |
+| Logged out too often | Raise `SESSION_IDLE_MINUTES` in `db.php` (default 240). |
+| Locked out after wrong passwords | Wait `LOGIN_LOCK_MINUTES` (default 5), or clear the attempt rows in the database. |
+| New logo not showing | Hard-refresh once; the `?v=` is the file's modified time, so re-save the file if needed. |
+| PO will not finalize | No confirmed receipt rows yet — save the receipt on the GRN screen first. |
+| Cannot delete a supplier / item | It is referenced by a PO or still holds stock. Deactivate instead. |
+| Issue voucher refuses to save | A line is short of stock; the whole slip rolls back. Check that item's available lots. |
+| Stock value looks wrong | Check the lot rates in the stock report — valuation uses the **received** rate per lot, not the ordered rate. |
+
+</details>
+
+---
+
+## 10. Help & support
 
 <div align="center">
 
+### Designed &amp; developed by **SmartJOANS**
+
+Full-stack web development — PHP / MySQL systems, ASP.NET, Node.js services and digital tools.
+
+<a href="https://services.smartjoans.space" target="_blank">
+  <img src="https://img.shields.io/badge/Need%20help%3F%20Setup%20%C2%B7%20Customisation%20%C2%B7%20Support-services.smartjoans.space-0D6EFD?style=for-the-badge" alt="Support" />
+</a>
+
 | Platform | Link |
 | :--- | :--- |
+| 🛠️ **Support &amp; Services** | **[services.smartjoans.space](https://services.smartjoans.space)** |
+| 📸 **Instagram** | **[@smart_joans](https://instagram.com/smart_joans)** |
 | 🌐 **Website** | [www.smartjoans.space](https://www.smartjoans.space) |
 | 📚 **SmartLib** | [books.smartjoans.space](https://books.smartjoans.space) |
 | 🔗 **Sharable** | [sharable.smartjoans.space](https://sharable.smartjoans.space) |
 | 💳 **Digital CV** | [myprofile.cc](https://myprofile.cc) |
-| 📸 **Instagram** | [@smart_joans](https://instagram.com/smart_joans) |
 
 **Also built:** [artintentions.in](https://artintentions.in) · [writerpraba.co.in](https://writerpraba.co.in)
 
 <br/>
 
-<!-- Animated Waving Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D6EFD,100:198754&height=115§ion=footer&text=Built%20by%20SmartJOANS%20%C2%B7%20%40smart_joans&fontSize=19&fontColor=ffffff&animation=fadeIn&fontAlignY=65" width="100%" alt="SmartJOANS Footer" />
+<!-- ══════════ ANIMATED WAVING FOOTER ══════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D6EFD,100:198754&amp;height=120&amp;section=footer&amp;text=Built%20by%20SmartJOANS%20%C2%B7%20%40smart_joans&amp;fontSize=20&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=65" width="100%" alt="Built by SmartJOANS · @smart_joans" />
 
-**SL Diagnostics — Laboratory Inventory & Stock Management System**  
-*Core PHP · MySQL · Bootstrap 5 · No build step*  
-**Built by SmartJOANS · @smart_joans**
+**SL Diagnostics — Laboratory Inventory &amp; Stock Management System**
+*Core PHP · MySQL · Bootstrap 5 · No build step*
+**Built by SmartJOANS · [services.smartjoans.space](https://services.smartjoans.space) · [@smart_joans](https://instagram.com/smart_joans)**
 
 </div>
