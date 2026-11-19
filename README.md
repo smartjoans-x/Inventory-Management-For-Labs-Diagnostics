@@ -11,7 +11,7 @@ No framework · no composer · no build step · runs on XAMPP and cPanel / LiteS
 
 </div>
 
-<img src="docs/divider.svg" width="100%" alt="">
+
 
 ## Contents
 
