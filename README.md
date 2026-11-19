@@ -114,7 +114,7 @@ sl-inventory/
 ├── assets/
 │   ├── css/style.css         Theme, login page, responsive sidebar, print stylesheet
 │   └── js/app.js             Shared JS (number formatting, fetch wrapper, confirms)
-└── docs/                     Images used by this README (optional)
+
 ```
 
 ---
@@ -134,7 +134,7 @@ It creates `sl_inventory`, all eleven tables, the `v_item_stock` view and **one*
 ### Step 3 — Edit the top of `db.php`
 ```php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'sl_inventory');
+define('DB_NAME', 'sl_inventory'); Change If you use own db 
 define('DB_USER', 'root');      // cPanel: your DB user
 define('DB_PASS', '');          // cPanel: your DB password
 ```
