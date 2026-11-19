@@ -13,8 +13,7 @@ and the two-stage Order → Receive (GRN) purchase workflow.**
 ```
 sl-inventory/
 ├── database.sql              Clean MySQL schema + ONE default admin login
-├── sl_live_data.sql          YOUR data: 9 depts, 20 analysers, 33 suppliers,
-│                             220 items, opening stock, Oct-2026 budget figures
+├── 
 ├── upgrade_v3.sql            ONLY for an older install with data to keep
 ├── upgrade_v4.sql            ONLY for an older install: dept / equipment / budget
 ├── upgrade_v5.sql            ONLY for an older install: issue voucher columns
