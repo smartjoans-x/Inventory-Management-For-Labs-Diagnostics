@@ -139,13 +139,26 @@ Replace `your_database_name` with the database name you want to create:
 mysql -u root -p -e "CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 mysql -u root -p your_database_name < database.sql
 mysql -u root -p your_database_name < upgrade_v6.sql
+```
 
-### Step 3 — Edit the top of `db.php`
+This creates all eleven tables, the `v_item_stock` view, the v6 schema updates, and **one** row: the default administrator. No suppliers, no items, no stock — you build the masters from the app.
+
+---
+
+### Step 3 — Configure database & customize branding (`/db.php`)
+
+After importing the database, open `/db.php` in your editor and update your database connection credentials (`DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASS`) to match the database you created in Step 2.
+
+You can also customize the application name, company brand, address, GSTIN, and logo to match your organization by editing these constants inside `/db.php`:
+
 ```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'sl_inventory'); Change If you use own db 
-define('DB_USER', 'root');      // cPanel: your DB user
-define('DB_PASS', '');          // cPanel: your DB password
+define('APP_NAME',    'Diagnostics - Inventory Management');
+define('APP_BRAND',   'Diagnostics');
+define('APP_TAGLINE', 'Inventory Management');
+define('APP_ADDRESS', 'Hyderabad, Telangana');  // printed on the PO header
+define('APP_GST',     '');                      // own GSTIN, printed if filled
+define('APP_ROOT',    __DIR__);
+define('APP_LOGO',    'logo.png');              // replace logo.png in the root folder with your own logo
 ```
 
 | Constant | Purpose |
