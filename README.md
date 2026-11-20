@@ -37,91 +37,7 @@
 > **This build:** clean database, login with Admin / User roles, your logo on the printed PO, and the two-stage **Order → Receive (GRN)** purchase workflow.
 
 ---
-## Screenshots
 
-<details open>
-  <summary><b>1. Login Page</b></summary>
-  <br>
-  <img src="img/login.png" alt="Login Page" width="100%">
-</details>
-
-<details>
-  <summary><b>2. Dashboard</b></summary>
-  <br>
-  <img src="img/dashboard.png" alt="Dashboard" width="100%">
-</details>
-
-<details>
-  <summary><b>3. Item Master</b></summary>
-  <br>
-  <img src="img/item master.png" alt="Item Master" width="100%">
-</details>
-
-<details>
-  <summary><b>4. Supplier Master</b></summary>
-  <br>
-  <img src="img/supplier master.png" alt="Supplier Master" width="100%">
-</details>
-
-<details>
-  <summary><b>5. Department & Equipment Master</b></summary>
-  <br>
-  <img src="img/department and equipment master.png" alt="Department and Equipment Master" width="100%">
-</details>
-
-<details>
-  <summary><b>6. Create Purchase Order (PO)</b></summary>
-  <br>
-  <img src="img/create PO.png" alt="Create Purchase Order" width="100%">
-</details>
-
-<details>
-  <summary><b>7. PO Receiving</b></summary>
-  <br>
-  <img src="img/PO Reciving.png" alt="PO Receiving" width="100%">
-</details>
-
-<details>
-  <summary><b>8. Direct GRN Received</b></summary>
-  <br>
-  <img src="img/direct GRN recived.png" alt="Direct GRN Received" width="100%">
-</details>
-
-<details>
-  <summary><b>9. Stock Out Issue</b></summary>
-  <br>
-  <img src="img/stock Out Issue.png" alt="Stock Out Issue" width="100%">
-</details>
-
-<details>
-  <summary><b>10. Stock Valuation</b></summary>
-  <br>
-  <img src="img/stocks valuation.png" alt="Stock Valuation" width="100%">
-</details>
-
-<details>
-  <summary><b>11. Stock Valuation (Detailed)</b></summary>
-  <br>
-  <img src="img/stocks valuatiodn.png" alt="Stock Valuation Detailed View" width="100%">
-</details>
-
-<details>
-  <summary><b>12. Monthly Budget Planning</b></summary>
-  <br>
-  <img src="img/monthly budget planing.png" alt="Monthly Budget Planning" width="100%">
-</details>
-
-<details>
-  <summary><b>13. User Management</b></summary>
-  <br>
-  <img src="img/user management.png" alt="User Management" width="100%">
-</details>
-
-<details>
-  <summary><b>14. User Profile</b></summary>
-  <br>
-  <img src="img/user Profile.png" alt="User Profile" width="100%">
-</details>
 ## ⚡ Quick start
 
 ```bash
@@ -508,6 +424,91 @@ Nothing breaks if the file is missing — every spot falls back to the text word
 </details>
 
 ---
+## Screenshots
+
+<details name="screenshots" open>
+  <summary><b>1. Login Page</b></summary>
+  <br>
+  <img src="img/login.png" alt="Login Page" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>2. Dashboard</b></summary>
+  <br>
+  <img src="img/dashboard.png" alt="Dashboard" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>3. Item Master</b></summary>
+  <br>
+  <img src="img/item master.png" alt="Item Master" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>4. Supplier Master</b></summary>
+  <br>
+  <img src="img/supplier master.png" alt="Supplier Master" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>5. Department & Equipment Master</b></summary>
+  <br>
+  <img src="img/department and equipment master.png" alt="Department and Equipment Master" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>6. Create Purchase Order (PO)</b></summary>
+  <br>
+  <img src="img/create PO.png" alt="Create Purchase Order" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>7. PO Receiving</b></summary>
+  <br>
+  <img src="img/PO Reciving.png" alt="PO Receiving" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>8. Direct GRN Received</b></summary>
+  <br>
+  <img src="img/direct GRN recived.png" alt="Direct GRN Received" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>9. Stock Out Issue</b></summary>
+  <br>
+  <img src="img/stock Out Issue.png" alt="Stock Out Issue" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>10. Stock Valuation</b></summary>
+  <br>
+  <img src="img/stocks valuation.png" alt="Stock Valuation" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>11. Stock Valuation (Detailed)</b></summary>
+  <br>
+  <img src="img/stocks valuatiodn.png" alt="Stock Valuation Detailed View" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>12. Monthly Budget Planning</b></summary>
+  <br>
+  <img src="img/monthly budget planing.png" alt="Monthly Budget Planning" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>13. User Management</b></summary>
+  <br>
+  <img src="img/user management.png" alt="User Management" width="100%">
+</details>
+
+<details name="screenshots">
+  <summary><b>14. User Profile</b></summary>
+  <br>
+  <img src="img/user Profile.png" alt="User Profile" width="100%">
+</details>
 
 ## 10. Help & support
 
