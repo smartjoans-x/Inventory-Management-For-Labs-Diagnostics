@@ -2,7 +2,7 @@
 
 <!-- ══════════ ANIMATED TYPING BANNER ══════════ -->
 <a href="https://www.smartjoans.space">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=3500&amp;pause=900&amp;color=0D6EFD&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=60&amp;lines=SL+Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;Lot-wise+Valuation+%E2%80%A2+FIFO+Issue+Vouchers;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step" alt="SL Diagnostics — Laboratory Inventory & Stock Management System" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=3500&amp;pause=900&amp;color=0D6EFD&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=60&amp;lines=Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;Lot-wise+Valuation+%E2%80%A2+FIFO+Issue+Vouchers;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step" alt="SL Diagnostics — Laboratory Inventory & Stock Management System" />
 </a>
 
 <p>
