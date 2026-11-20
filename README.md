@@ -39,68 +39,89 @@
 ---
 ## Screenshots
 
-*Scroll horizontally (`←` `→`) to slide through all screens:*
+<details open>
+  <summary><b>1. Login Page</b></summary>
+  <br>
+  <img src="img/login.png" alt="Login Page" width="100%">
+</details>
 
-<table>
-  <tr>
-    <td align="center" width="520">
-      <img src="img/login.png" alt="Login Page" width="500"><br>
-      <b>1. Login Page</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/dashboard.png" alt="Dashboard" width="500"><br>
-      <b>2. Dashboard</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/item master.png" alt="Item Master" width="500"><br>
-      <b>3. Item Master</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/supplier master.png" alt="Supplier Master" width="500"><br>
-      <b>4. Supplier Master</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/department and equipment master.png" alt="Department and Equipment Master" width="500"><br>
-      <b>5. Department & Equipment Master</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/create PO.png" alt="Create Purchase Order" width="500"><br>
-      <b>6. Create Purchase Order (PO)</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/PO Reciving.png" alt="PO Receiving" width="500"><br>
-      <b>7. PO Receiving</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/direct GRN recived.png" alt="Direct GRN Received" width="500"><br>
-      <b>8. Direct GRN Received</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/stock Out Issue.png" alt="Stock Out Issue" width="500"><br>
-      <b>9. Stock Out Issue</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/stocks valuation.png" alt="Stock Valuation" width="500"><br>
-      <b>10. Stock Valuation</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/stocks valuatiodn.png" alt="Stock Valuation Detailed View" width="500"><br>
-      <b>11. Stock Valuation (Detailed)</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/monthly budget planing.png" alt="Monthly Budget Planning" width="500"><br>
-      <b>12. Monthly Budget Planning</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/user management.png" alt="User Management" width="500"><br>
-      <b>13. User Management</b>
-    </td>
-    <td align="center" width="520">
-      <img src="img/user Profile.png" alt="User Profile" width="500"><br>
-      <b>14. User Profile</b>
-    </td>
-  </tr>
-</table>
+<details>
+  <summary><b>2. Dashboard</b></summary>
+  <br>
+  <img src="img/dashboard.png" alt="Dashboard" width="100%">
+</details>
+
+<details>
+  <summary><b>3. Item Master</b></summary>
+  <br>
+  <img src="img/item master.png" alt="Item Master" width="100%">
+</details>
+
+<details>
+  <summary><b>4. Supplier Master</b></summary>
+  <br>
+  <img src="img/supplier master.png" alt="Supplier Master" width="100%">
+</details>
+
+<details>
+  <summary><b>5. Department & Equipment Master</b></summary>
+  <br>
+  <img src="img/department and equipment master.png" alt="Department and Equipment Master" width="100%">
+</details>
+
+<details>
+  <summary><b>6. Create Purchase Order (PO)</b></summary>
+  <br>
+  <img src="img/create PO.png" alt="Create Purchase Order" width="100%">
+</details>
+
+<details>
+  <summary><b>7. PO Receiving</b></summary>
+  <br>
+  <img src="img/PO Reciving.png" alt="PO Receiving" width="100%">
+</details>
+
+<details>
+  <summary><b>8. Direct GRN Received</b></summary>
+  <br>
+  <img src="img/direct GRN recived.png" alt="Direct GRN Received" width="100%">
+</details>
+
+<details>
+  <summary><b>9. Stock Out Issue</b></summary>
+  <br>
+  <img src="img/stock Out Issue.png" alt="Stock Out Issue" width="100%">
+</details>
+
+<details>
+  <summary><b>10. Stock Valuation</b></summary>
+  <br>
+  <img src="img/stocks valuation.png" alt="Stock Valuation" width="100%">
+</details>
+
+<details>
+  <summary><b>11. Stock Valuation (Detailed)</b></summary>
+  <br>
+  <img src="img/stocks valuatiodn.png" alt="Stock Valuation Detailed View" width="100%">
+</details>
+
+<details>
+  <summary><b>12. Monthly Budget Planning</b></summary>
+  <br>
+  <img src="img/monthly budget planing.png" alt="Monthly Budget Planning" width="100%">
+</details>
+
+<details>
+  <summary><b>13. User Management</b></summary>
+  <br>
+  <img src="img/user management.png" alt="User Management" width="100%">
+</details>
+
+<details>
+  <summary><b>14. User Profile</b></summary>
+  <br>
+  <img src="img/user Profile.png" alt="User Profile" width="100%">
+</details>
 ## ⚡ Quick start
 
 ```bash
