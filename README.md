@@ -538,7 +538,7 @@ Full-stack web development — PHP / MySQL systems, ASP.NET, Node.js services an
 <!-- ══════════ ANIMATED WAVING FOOTER ══════════ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D6EFD,100:198754&amp;height=120&amp;section=footer&amp;text=Built%20by%20SmartJOANS%20%C2%B7%20%40smart_joans&amp;fontSize=20&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=65" width="100%" alt="Built by SmartJOANS · @smart_joans" />
 
-**SL Diagnostics — Laboratory Inventory &amp; Stock Management System**
+**Diagnostics — Laboratory Inventory &amp; Stock Management System**
 *Core PHP · MySQL · Bootstrap 5 · No build step*
 **Built by SmartJOANS · [services.smartjoans.space](https://services.smartjoans.space) · [@smart_joans](https://instagram.com/smart_joans)**
 
