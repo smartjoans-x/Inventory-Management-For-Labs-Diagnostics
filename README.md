@@ -124,12 +124,21 @@ sl-inventory/
 ### Step 1 — Copy the folder
 Copy `sl-inventory` into `htdocs` (XAMPP) or `public_html` (cPanel).
 
-### Step 2 — Import the database
-phpMyAdmin → Import, or from the shell:
+### Step 2 — Create and import the database
+
+First, create a new database with your preferred name (for example, `sl_inventory`) and import `database.sql` into it, followed by `upgrade_v6.sql` to apply the latest schema updates.
+
+**Option A — Using phpMyAdmin:**
+1. Open **phpMyAdmin** and click **New** in the left sidebar to create a new database with your chosen name (using `utf8mb4_unicode_ci` collation).
+2. Select your newly created database, go to the **Import** tab, choose `database.sql`, and click **Import**.
+3. Once completed, stay inside the same database, return to the **Import** tab, choose `upgrade_v6.sql`, and click **Import**.
+
+**Option B — From the shell:**
+Replace `your_database_name` with the database name you want to create:
 ```bash
-mysql -u root -p < database.sql
-```
-It creates `sl_inventory`, all eleven tables, the `v_item_stock` view and **one** row: the default administrator. No suppliers, no items, no stock — you build the masters from the app.
+mysql -u root -p -e "CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+mysql -u root -p your_database_name < database.sql
+mysql -u root -p your_database_name < upgrade_v6.sql
 
 ### Step 3 — Edit the top of `db.php`
 ```php
