@@ -41,30 +41,33 @@
 > - **With GST Version (`inventory_with_GST.zip`):** If you require GST tax calculations and GST-enabled billing/reporting, download **`inventory_with_GST.zip`** from this repository. Extract the files and apply the included SQL update script to the **same database** (`database.sql` + the GST update SQL file inside the zip) as outlined in the installation steps.
 > - **Need Help?** Feel free to reach out to me anytime via **[services.smartjoans.space](https://services.smartjoans.space)** or Instagram **[@smart_joans](https://instagram.com/smart_joans)** for setup, GST migration, or customisation support!
 
-GST edition — without GST vs with GST
+## GST edition — without GST vs with GST
 
-The files sitting open in this folder are the standard build — purchase, receipt and valuation without GST. Rate × quantity, nothing else, which is what an in-house laboratory store usually wants.
+The files sitting open in this folder are the **standard build** — purchase, receipt and valuation without GST (`rate × quantity`, nothing else, which is what an in-house laboratory store usually wants).
 
-The same system with GST tracking is shipped separately, zipped, so that one folder never mixes the two.
+The same system with **GST tracking** is shipped separately, zipped, so that one folder never mixes the two.
 
-	Standard — this folder	GST edition — inventory_with_GST.zip
-Where the files are	already extracted in the application root	inside the zip
-Purchase → receipt	rate × quantity	rate × quantity with GST
-Database	database.sql + upgrade_v6.sql	the same database, plus the update SQL that comes inside the zip
-Who it is for	internal store, no tax working needed	purchases that have to carry the tax breakup
-How to move to the GST edition
-Download inventory_with_GST.zip and extract it somewhere outside the application folder.
-Take a backup of your database first — phpMyAdmin → your database → Export → Go. One minute, and it is the only way back.
-Copy the files out of the zip into the application folder, replacing the standard files of the same name. Keep your own db.php values and your own logo.png — re-enter the four DB_* constants and the APP_* branding if the zip overwrites them.
-Import the update SQL from the zip into the SAME database you created in section 2 — do not create a second database. phpMyAdmin → select that database → Import → choose the SQL file from the zip → Import. It brings the schema up to the GST build on top of what is already there, so the suppliers, items, purchase orders and stock you have already entered stay where they are.
-Fill APP_GST in db.php with your own GSTIN so it prints on the purchase order header.
-Open login.php again. The same logins and the same roles work — nothing else to configure.
+| | Standard — this folder | GST edition — `inventory_with_GST.zip` |
+| :--- | :--- | :--- |
+| **Where the files are** | Already extracted in the application root | Inside the zip |
+| **Purchase → receipt** | `rate × quantity` | `rate × quantity` with GST |
+| **Database** | `database.sql` + `upgrade_v6.sql` | The **same database**, plus the update SQL that comes inside the zip |
+| **Who it is for** | Internal store, no tax working needed | Purchases that have to carry the tax breakup |
 
-⚠️ Run one build, not both. The GST pages expect the columns the update SQL adds, so import the SQL before opening them — otherwise the pages come back with an Unknown column error.
+### How to move to the GST edition
 
-📌 Already running without GST and live? You lose nothing by moving. The update SQL is applied over the existing database, so the history, the lots and the valuation carry over and only the new purchases carry the tax working.
+1. **Download `inventory_with_GST.zip`** and extract it somewhere outside the application folder.
+2. **Take a backup of your database first** — phpMyAdmin → your database → **Export** → **Go**. One minute, and it is the only way back.
+3. **Copy the files** out of the zip into the application folder, replacing the standard files of the same name. Keep your own `db.php` values and your own `logo.png` — re-enter the four `DB_*` constants and the `APP_*` branding if the zip overwrites them.
+4. **Import the update SQL from the zip into the SAME database** you created in section 2 — do not create a second database. phpMyAdmin → select that database → **Import** → choose the SQL file from the zip → **Import**. It brings the schema up to the GST build on top of what is already there, so the suppliers, items, purchase orders and stock you have already entered stay where they are.
+5. **Fill `APP_GST` in `db.php`** with your own GSTIN so it prints on the purchase order header.
+6. **Open `login.php` again.** The same logins and the same roles work — nothing else to configure.
 
-Not sure which build you need, or want the GST edition installed and the data moved for you? → message me any time: services.smartjoans.space
+> ⚠️ **Run one build, not both.** The GST pages expect the columns the update SQL adds, so import the SQL before opening them — otherwise the pages come back with an `Unknown column` error.
+
+> 📌 **Already running without GST and live?** You lose nothing by moving. The update SQL is applied over the existing database, so the history, the lots and the valuation carry over and only the new purchases carry the tax working.
+
+Not sure which build you need, or want the GST edition installed and the data moved for you? → message me any time: **[services.smartjoans.space](https://services.smartjoans.space)**
 ---
 
 ## ⚡ Quick start
