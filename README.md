@@ -2,7 +2,7 @@
 
 <!-- ══════════ ANIMATED TYPING BANNER ══════════ -->
 <a href="https://www.smartjoans.space">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=3500&amp;pause=900&amp;color=0D6EFD&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=60&amp;lines=Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;Lot-wise+Valuation+%E2%80%A2+FIFO+Issue+Vouchers;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step;Standard+Build+Without+GST+%E2%80%A2+With+GST+in+inventory_with_GST.zip" alt="SL Diagnostics — Laboratory Inventory & Stock Management System" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3500&pause=900&color=0D6EFD&center=true&vCenter=true&width=900&height=60&lines=Diagnostics+%E2%80%94+Laboratory+Inventory+%26+Stock+System;Core+PHP+(PDO)+%2B+MySQL+%2B+Bootstrap+5+%2B+Vanilla+JS;Two-Stage+Order+%E2%86%92+Receive+(GRN)+Purchase+Workflow;Lot-wise+Valuation+%E2%80%A2+FIFO+Issue+Vouchers;No+Framework+%E2%80%A2+No+Composer+%E2%80%A2+No+Build+Step" alt="SL Diagnostics — Laboratory Inventory & Stock Management System" />
 </a>
 
 <p>
@@ -13,23 +13,22 @@
 <!-- ══════════ TECH BADGES ══════════ -->
 <p>
   <img src="https://img.shields.io/badge/Build-v6%20%C2%B7%20Order%20%E2%86%92%20Receive%20(GRN)-0D6EFD?style=for-the-badge" alt="Build v6" />
-  <img src="https://img.shields.io/badge/PHP-7.4%2B%20(tested%208.3)-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL-PDO%20%C2%B7%2011%20tables%20%2B%20v__item__stock-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Hosting-XAMPP%20%7C%20cPanel%20%7C%20LiteSpeed-FF6C37?style=for-the-badge&amp;logo=cpanel&amp;logoColor=white" alt="Hosting" />
-  <img src="https://img.shields.io/badge/Editions-Without%20GST%20(default)%20%7C%20With%20GST%20(zip)-198754?style=for-the-badge" alt="Editions — without GST by default, with GST inside inventory_with_GST.zip" />
+  <img src="https://img.shields.io/badge/PHP-7.4%2B%20(tested%208.3)-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-PDO%20%C2%B7%2011%20tables%20%2B%20v__item__stock-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Hosting-XAMPP%20%7C%20cPanel%20%7C%20LiteSpeed-FF6C37?style=for-the-badge&logo=cpanel&logoColor=white" alt="Hosting" />
 </p>
 
 <!-- ══════════ CREATOR / SUPPORT BADGES ══════════ -->
 <p>
   <a href="https://www.smartjoans.space" target="_blank">
-    <img src="https://img.shields.io/badge/Built%20by-SmartJOANS-00C853?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Built by SmartJOANS" />
+    <img src="https://img.shields.io/badge/Built%20by-SmartJOANS-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Built by SmartJOANS" />
   </a>
   <a href="https://services.smartjoans.space" target="_blank">
-    <img src="https://img.shields.io/badge/Help%20%26%20Support-services.smartjoans.space-0D6EFD?style=for-the-badge&amp;logo=headspace&amp;logoColor=white" alt="Help & Support" />
+    <img src="https://img.shields.io/badge/Help%20%26%20Support-services.smartjoans.space-0D6EFD?style=for-the-badge&logo=headspace&logoColor=white" alt="Help & Support" />
   </a>
   <a href="https://instagram.com/smart_joans" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-@smart__joans-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-@smart__joans-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
@@ -37,8 +36,22 @@
 
 > **This build:** clean database, login with Admin / User roles, your logo on the printed PO, and the two-stage **Order → Receive (GRN)** purchase workflow.
 
-> 🧾 **Two editions — read this before you install.** The files lying open in this folder are the **standard build: inventory tracking without GST**. If you need **GST**, download **`inventory_with_GST.zip`**, use the files inside it, point them at the **same database**, and import the **update SQL that comes inside the zip**. Step-by-step in **[3 · GST edition](#3-gst-edition--without-gst-vs-with-gst)**.
+> **📦 Edition Note (Without GST vs. With GST):**
+> - **Standard Root Files (Default):** The main repository files outside the zip archive are the **Without GST** version for standard inventory and stock tracking.
+> - **With GST Version (`inventory_with_GST.zip`):** If you require GST tax calculations and GST-enabled billing/reporting, download **`inventory_with_GST.zip`** from this repository. Extract the files and apply the included SQL update script to the **same database** (`database.sql` + the GST update SQL file inside the zip) as outlined in the installation steps.
+> - **Need Help?** Feel free to reach out to me anytime via **[services.smartjoans.space](https://services.smartjoans.space)** or Instagram **[@smart_joans](https://instagram.com/smart_joans)** for setup, GST migration, or customisation support!
 
+**GST edition — without GST vs with GST**
+
+The files sitting open in this folder are the standard build — purchase, receipt and valuation without GST. Rate × quantity, nothing else, which is what an in-house laboratory store usually wants.
+
+The same system with GST tracking is shipped separately, zipped, so that one folder never mixes the two.
+
+	Standard — this folder	GST edition — inventory_with_GST.zip
+Where the files are	already extracted in the application root	inside the zip
+Purchase → receipt	rate × quantity	rate × quantity with GST
+Database	database.sql + upgrade_v6.sql	the same database, plus the update SQL that comes inside the zip
+Who it is for	internal store, no tax working needed	purchases that have to carry the tax breakup
 ---
 
 ## ⚡ Quick start
@@ -50,9 +63,6 @@ mysql -u root -p < database.sql
 
 # 3 · edit the four constants at the top of db.php
 # 4 · open login.php  →  admin / admin123  →  change the password immediately
-
-# GST needed?  →  unzip inventory_with_GST.zip, use those files,
-#                 and import the update SQL inside it into the SAME database
 ```
 
 ```
@@ -66,9 +76,9 @@ Login → Suppliers → Item Master → Create PO (Draft)
 
 | | | |
 | :--- | :--- | :--- |
-| 📦 **Item &amp; supplier masters**<br/>Department, analyser, default supplier and item code per item. Lot tracking is a per-item switch. | 🔁 **Two-stage purchase**<br/>Ordering raises a Draft only. Stock is created after the delivery is checked in. | 💰 **Exact valuation**<br/>No average costing — each lot keeps the rate it was bought at. |
+| 📦 **Item & supplier masters**<br/>Department, analyser, default supplier and item code per item. Lot tracking is a per-item switch. | 🔁 **Two-stage purchase**<br/>Ordering raises a Draft only. Stock is created after the delivery is checked in. | 💰 **Exact valuation**<br/>No average costing — each lot keeps the rate it was bought at. |
 | 🚚 **Direct GRN**<br/>Goods received with no purchase order, posted to stock in one screen. | 📤 **Issue vouchers**<br/>One slip, many items, FIFO or a lot you pick. All-or-nothing saving. | 📊 **Monthly budget**<br/>Opening → purchase → issues → closing → requirement, with draft POs in one click. |
-| 🔐 **Locked down**<br/>bcrypt, CSRF, prepared statements, server-side guards, lockout. | 🖨️ **Print &amp; export**<br/>A4 PO with your logo, issue slips, CSV from stock report and budget. | 🕘 **Full audit trail**<br/>Who created, finalized and issued — names survive login deletion. |
+| 🔐 **Locked down**<br/>bcrypt, CSRF, prepared statements, server-side guards, lockout. | 🖨️ **Print & export**<br/>A4 PO with your logo, issue slips, CSV from stock report and budget. | 🕘 **Full audit trail**<br/>Who created, finalized and issued — names survive login deletion. |
 
 ---
 
@@ -76,9 +86,9 @@ Login → Suppliers → Item Master → Create PO (Draft)
 
 | | | | |
 | :--- | :--- | :--- | :--- |
-| [1 · Folder structure](#1-folder-structure) | [2 · Installation](#2-installation) | [3 · GST edition](#3-gst-edition--without-gst-vs-with-gst) | [4 · Document numbers](#4-three-documents-three-number-series) |
-| [5 · Roles &amp; security](#5-roles--security) | [6 · Stock logic](#6-how-the-stock-logic-works) | [7 · Budget page](#7-the-budget-page) | [8 · Your logo](#8-your-logo) |
-| [9 · Notes](#9-notes) | [10 · Troubleshooting](#10-troubleshooting) | [11 · Help &amp; support](#11-help--support) | |
+| [1 · Folder structure](#1-folder-structure) | [2 · Installation](#2-installation) | [3 · Document numbers](#3-three-documents-three-number-series) | [4 · Roles & security](#4-roles--security) |
+| [5 · Stock logic](#5-how-the-stock-logic-works) | [6 · Budget page](#6-the-budget-page) | [7 · Your logo](#7-your-logo) | [8 · Notes](#8-notes) |
+| [9 · Troubleshooting](#9-troubleshooting) | [10 · Help & support](#10-help--support) | | |
 
 ---
 
@@ -86,13 +96,13 @@ Login → Suppliers → Item Master → Create PO (Draft)
 
 ```text
 sl-inventory/
-├── database.sql              Clean MySQL schema + ONE default admin login
+├── inventory_with_GST.zip    ← DOWNLOAD THIS for the With-GST edition + GST SQL update
+├── database.sql              Clean MySQL schema + ONE default admin login (Without GST)
 ├── upgrade_v3.sql            ONLY for an older install with data to keep
 ├── upgrade_v4.sql            ONLY for an older install: dept / equipment / budget
 ├── upgrade_v5.sql            ONLY for an older install: issue voucher columns
 ├── upgrade_v6.sql            ONLY for an older install: direct GRN flag
-├── inventory_with_GST.zip    OPTIONAL — the SAME system WITH GST (files + its own update SQL)
-├── logo.png                  ← PUT YOUR LOGO HERE (see section 8)
+├── logo.png                  ← PUT YOUR LOGO HERE (see section 7)
 ├── db.php                    App constants, session settings, PDO (EDIT THIS)
 ├── login.php                 Sign in (split-panel on desktop, single column on mobile)
 ├── logout.php                Sign out
@@ -121,24 +131,28 @@ sl-inventory/
 ├── assets/
 │   ├── css/style.css         Theme, login page, responsive sidebar, print stylesheet
 │   └── js/app.js             Shared JS (number formatting, fetch wrapper, confirms)
-
 ```
 
 ---
 
 ## 2. Installation
 
+### Choose Your Edition First
+- **Without GST (Default):** Use the standard files in the main directory directly.
+- **With GST (`inventory_with_GST.zip`):** Download and extract **`inventory_with_GST.zip`**. It uses the **exact same database** structure—simply import the base `database.sql` (and `upgrade_v6.sql`) along with the **GST update SQL file** included inside the zip archive, then configure `db.php` with the same database credentials.
+
 ### Step 1 — Copy the folder
-Copy `sl-inventory` into `htdocs` (XAMPP) or `public_html` (cPanel).
+Copy `sl-inventory` (or the extracted files from `inventory_with_GST.zip`) into `htdocs` (XAMPP) or `public_html` (cPanel).
 
 ### Step 2 — Create and import the database
 
-First, create a new database with your preferred name (for example, `sl_inventory`) and import `database.sql` into it, followed by `upgrade_v6.sql` to apply the latest schema updates.
+First, create a new database with your preferred name (for example, `sl_inventory`) and import `database.sql` into it, followed by `upgrade_v6.sql` (and the GST update SQL file if using `inventory_with_GST.zip`) to apply the latest schema updates.
 
 **Option A — Using phpMyAdmin:**
 1. Open **phpMyAdmin** and click **New** in the left sidebar to create a new database with your chosen name (using `utf8mb4_unicode_ci` collation).
 2. Select your newly created database, go to the **Import** tab, choose `database.sql`, and click **Import**.
 3. Once completed, stay inside the same database, return to the **Import** tab, choose `upgrade_v6.sql`, and click **Import**.
+4. *(For With-GST Edition only)* Stay in the same database, go to **Import**, and import the GST update `.sql` file found inside `inventory_with_GST.zip`.
 
 **Option B — From the shell:**
 Replace `your_database_name` with the database name you want to create:
@@ -146,6 +160,8 @@ Replace `your_database_name` with the database name you want to create:
 mysql -u root -p -e "CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 mysql -u root -p your_database_name < database.sql
 mysql -u root -p your_database_name < upgrade_v6.sql
+# If using inventory_with_GST.zip, also run the GST update SQL file on the same database:
+# mysql -u root -p your_database_name < upgrade_gst.sql
 ```
 
 This creates all eleven tables, the `v_item_stock` view, the v6 schema updates, and **one** row: the default administrator. No suppliers, no items, no stock — you build the masters from the app.
@@ -200,7 +216,7 @@ The dashboard shows a **Getting Started** checklist until the masters have data,
 
 <br/>
 
-Run `upgrade_v3.sql`, `upgrade_v4.sql`, `upgrade_v5.sql` and `upgrade_v6.sql` **in that order** instead of re-importing. Together they add the receipt tables, the department / equipment layer, the budget table, the issue voucher columns and the direct GRN flag — while keeping your data.
+Run `upgrade_v3.sql`, `upgrade_v4.sql`, `upgrade_v5.sql` and `upgrade_v6.sql` **in that order** instead of re-importing. Together they add the receipt tables, the department / equipment layer, the budget table, the issue voucher columns and the direct GRN flag — while keeping your data. If upgrading to the With-GST edition, run the GST update SQL script from `inventory_with_GST.zip` on the same database afterwards.
 
 ```bash
 mysql -u root -p sl_inventory < upgrade_v3.sql
@@ -214,37 +230,7 @@ mysql -u root -p sl_inventory < upgrade_v6.sql
 
 ---
 
-## 3. GST edition — without GST vs with GST
-
-The files sitting open in this folder are the **standard build — purchase, receipt and valuation without GST**. Rate × quantity, nothing else, which is what an in-house laboratory store usually wants.
-
-The **same system with GST tracking** is shipped separately, zipped, so that one folder never mixes the two.
-
-| | Standard — this folder | GST edition — `inventory_with_GST.zip` |
-| :--- | :--- | :--- |
-| Where the files are | already extracted in the application root | inside the zip |
-| Purchase → receipt | rate × quantity | rate × quantity **with GST** |
-| Database | `database.sql` + `upgrade_v6.sql` | the **same database**, plus the update SQL that comes inside the zip |
-| Who it is for | internal store, no tax working needed | purchases that have to carry the tax breakup |
-
-### How to move to the GST edition
-
-1. **Download `inventory_with_GST.zip`** and extract it somewhere outside the application folder.
-2. **Take a backup of your database first** — phpMyAdmin → your database → **Export** → Go. One minute, and it is the only way back.
-3. **Copy the files out of the zip into the application folder**, replacing the standard files of the same name. Keep your own `db.php` values and your own `logo.png` — re-enter the four `DB_*` constants and the `APP_*` branding if the zip overwrites them.
-4. **Import the update SQL from the zip into the SAME database** you created in section 2 — do **not** create a second database. phpMyAdmin → select that database → **Import** → choose the SQL file from the zip → **Import**. It brings the schema up to the GST build on top of what is already there, so the suppliers, items, purchase orders and stock you have already entered stay where they are.
-5. **Fill `APP_GST` in `db.php`** with your own GSTIN so it prints on the purchase order header.
-6. Open `login.php` again. The same logins and the same roles work — nothing else to configure.
-
-> ⚠️ **Run one build, not both.** The GST pages expect the columns the update SQL adds, so import the SQL **before** opening them — otherwise the pages come back with an *Unknown column* error.
-
-> 📌 Already running without GST and live? You lose nothing by moving. The update SQL is applied over the existing database, so the history, the lots and the valuation carry over and only the new purchases carry the tax working.
-
-**Not sure which build you need, or want the GST edition installed and the data moved for you? → message me any time: [services.smartjoans.space](https://services.smartjoans.space)**
-
----
-
-## 4. Three documents, three number series
+## 3. Three documents, three number series
 
 All defined at the top of `db.php`, so renaming any of them is a one-line change that every page follows.
 
@@ -258,7 +244,7 @@ All defined at the top of `db.php`, so renaming any of them is a one-line change
 
 ---
 
-## 5. Roles & security
+## 4. Roles & security
 
 | Page | Admin | User |
 | :--- | :---: | :---: |
@@ -300,7 +286,7 @@ Admin can create, edit, deactivate and delete logins, reset any password, and sw
 
 ---
 
-## 6. How the stock logic works
+## 5. How the stock logic works
 
 ### PO workflow — order first, receive second
 
@@ -366,7 +352,7 @@ After saving, the voucher prints as a slip with your logo, the lot numbers, the 
 
 ---
 
-## 7. The Budget page
+## 6. The Budget page
 
 `budget.php` is the monthly stock budget sheet, live. Pick a month and it shows, per item:
 
@@ -388,7 +374,7 @@ Departments and analysers are maintained in `departments.php`, and every Stock O
 
 ---
 
-## 8. Your logo
+## 7. Your logo
 
 Put `logo.png` in the application root, next to `db.php`. It is used automatically on:
 - the printed purchase order header (left side, beside the address / GSTIN),
@@ -406,8 +392,9 @@ Nothing breaks if the file is missing — every spot falls back to the text word
 
 ---
 
-## 9. Notes
+## 8. Notes
 
+- **Without GST vs. With GST** — All root files outside `inventory_with_GST.zip` operate without GST line calculations. If your workflow requires GST tracking, download `inventory_with_GST.zip`, deploy its files, and execute the bundled GST update SQL script against the exact same database.
 - **CDN-free option** — Bootstrap 5.3 and Bootstrap Icons load from jsDelivr. To go offline, download `bootstrap.min.css`, `bootstrap.bundle.min.js` and the icons font into `assets/` and change the tags in `includes/header.php`, `includes/footer.php` and `login.php`.
 - **Entering opening stock** — either raise one PO per supplier with the current rates and receive it with the real lot numbers (recommended: it keeps the audit trail), or insert the rows straight into `item_batches`. Rows entered without a real lot number can carry a placeholder lot such as `OPENING` and be corrected later:
   ```sql
@@ -438,7 +425,7 @@ Nothing breaks if the file is missing — every spot falls back to the text word
 
 ---
 
-## 10. Troubleshooting
+## 9. Troubleshooting
 
 <details open>
 <summary><strong>Common issues and what they mean</strong></summary>
@@ -457,8 +444,6 @@ Nothing breaks if the file is missing — every spot falls back to the text word
 | Cannot delete a supplier / item | It is referenced by a PO or still holds stock. Deactivate instead. |
 | Issue voucher refuses to save | A line is short of stock; the whole slip rolls back. Check that item's available lots. |
 | Stock value looks wrong | Check the lot rates in the stock report — valuation uses the **received** rate per lot, not the ordered rate. |
-| GST pages error with *Unknown column* | The update SQL inside `inventory_with_GST.zip` was never imported, or it went into a different database. Import it into the **same** database and reload. |
-| GST fields missing after replacing the files | You copied the GST files but skipped the zip's update SQL — see section 3. |
 
 </details>
 
@@ -549,15 +534,15 @@ Nothing breaks if the file is missing — every spot falls back to the text word
   <img src="img/user Profile.png" alt="User Profile" width="100%">
 </details>
 
-## 11. Help & support
+## 10. Help & support
 
 <div align="center">
 
-### Designed &amp; developed by **SmartJOANS**
+### Designed & developed by **SmartJOANS**
 
 Full-stack web development — PHP / MySQL systems, ASP.NET, Node.js services and digital tools.
 
-**Need a hand with the installation, the GST edition, moving your existing data, or any customisation? Contact me any time — I am happy to help.**
+**Need help with installation, GST setup, or customisation? Feel free to contact me anytime!**
 
 <a href="https://services.smartjoans.space" target="_blank">
   <img src="https://img.shields.io/badge/Need%20help%3F%20Setup%20%C2%B7%20Customisation%20%C2%B7%20Support-services.smartjoans.space-0D6EFD?style=for-the-badge" alt="Support" />
@@ -565,7 +550,7 @@ Full-stack web development — PHP / MySQL systems, ASP.NET, Node.js services an
 
 | Platform | Link |
 | :--- | :--- |
-| 🛠️ **Support &amp; Services** | **[services.smartjoans.space](https://services.smartjoans.space)** |
+| 🛠️ **Support & Services** | **[services.smartjoans.space](https://services.smartjoans.space)** |
 | 📸 **Instagram** | **[@smart_joans](https://instagram.com/smart_joans)** |
 | 🌐 **Website** | [www.smartjoans.space](https://www.smartjoans.space) |
 | 📚 **SmartLib** | [books.smartjoans.space](https://books.smartjoans.space) |
@@ -577,9 +562,9 @@ Full-stack web development — PHP / MySQL systems, ASP.NET, Node.js services an
 <br/>
 
 <!-- ══════════ ANIMATED WAVING FOOTER ══════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D6EFD,100:198754&amp;height=120&amp;section=footer&amp;text=Built%20by%20SmartJOANS%20%C2%B7%20%40smart_joans&amp;fontSize=20&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=65" width="100%" alt="Built by SmartJOANS · @smart_joans" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D6EFD,100:198754&height=120&section=footer&text=Built%20by%20SmartJOANS%20%C2%B7%20%40smart_joans&fontSize=20&fontColor=ffffff&animation=fadeIn&fontAlignY=65" width="100%" alt="Built by SmartJOANS · @smart_joans" />
 
-**Diagnostics — Laboratory Inventory &amp; Stock Management System**
+**Diagnostics — Laboratory Inventory & Stock Management System**
 *Core PHP · MySQL · Bootstrap 5 · No build step*
 **Built by SmartJOANS · [services.smartjoans.space](https://services.smartjoans.space) · [@smart_joans](https://instagram.com/smart_joans)**
 
